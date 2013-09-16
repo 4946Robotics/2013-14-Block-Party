@@ -10,7 +10,7 @@ Convert the thumbstick position to polar coordinates (rather than x,y; use an an
 Remember, pi = 180 degrees
 Use "halo controls" (translating with the left thumbstick, rotating with x of the right thumbstick)
 Thumbstick output for 1 axis is in range [-128, 128]
-Max speed of a motor is 255 units
+Motor speed range is [-100, 100]
 
 
 Translation
@@ -20,7 +20,7 @@ x = x input from left thumbstick [-128, 128]
 y = y input from left thumbstick [-128, 128]
 rot = rotation of all wheels, in radians
 mag = speed of all wheels
-maxPowerToMotor = max speed of a motor (255)
+maxPowerToMotor = max speed of a motor (100)
 
 if x == 0
 	if y > 0
