@@ -1,0 +1,42 @@
+General Information
+===================
+
+Convert the thumbstick position to polar coordinates (rather than x,y; use an angle and a distance [magnitude])
+Remember, pi = 180 degrees
+Use "halo controls" (translating with the left thumbstick, rotating with x of the right thumbstick)
+Thumbstick output for 1 axis is in range [-128, 128]
+
+
+Translation
+===========
+
+x = x input from left thumbstick [-128, 128]
+y = y input from left thumbstick [-128, 128]
+rot = rotation of all wheels, in radians
+mag = speed of all wheels (I forgot the actual range)
+maxPowerToMotor = max speed of a motor (find this out)
+
+if x == 0
+	if y > 0
+		rot = pi/2
+	else if y < 0
+		rot = 3pi/2
+else
+  rot = atan(y/x)   Note: the x and y may need to be flipped (check this)
+mag = maxPowerToMotor * sqrt( x^2 + y^2 ) / 128
+
+
+
+Rotation
+========
+
+Right thumbstick left = -90 degrees, right thumbstick right = 90 degrees:
+	rot = pi/2 * input/128
+
+
+
+To do:
+======
+1. Determine correct method for rotating via changing the wheel speeds
+2. Find out the max speed of a motor
+3. Double check if it should be atan(y/x) or rather atan(x/y)
