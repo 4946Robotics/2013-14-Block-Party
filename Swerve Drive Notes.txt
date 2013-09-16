@@ -1,7 +1,6 @@
-To do:
-======
+To do
+=====
 1. Determine correct method for rotating via changing the wheel speeds
-2. Find out the max speed of a motor
 
 
 General Information
@@ -11,6 +10,7 @@ Convert the thumbstick position to polar coordinates (rather than x,y; use an an
 Remember, pi = 180 degrees
 Use "halo controls" (translating with the left thumbstick, rotating with x of the right thumbstick)
 Thumbstick output for 1 axis is in range [-128, 128]
+Max speed of a motor is 255 units
 
 
 Translation
@@ -20,7 +20,7 @@ x = x input from left thumbstick [-128, 128]
 y = y input from left thumbstick [-128, 128]
 rot = rotation of all wheels, in radians
 mag = speed of all wheels
-maxPowerToMotor = max speed of a motor (find this out)
+maxPowerToMotor = max speed of a motor (255)
 
 if x == 0
 	if y > 0
