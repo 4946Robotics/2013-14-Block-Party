@@ -37,3 +37,10 @@ Rotation
 
 Right thumbstick left = -90 degrees, right thumbstick right = 90 degrees:
 	rot = pi/2 * input/128
+
+
+Also keep in mind
+===========
+
+Use event loops to handle rotating wheels to correct angle(s) and to correct speed(s)
+Have an emergency tank drive button in case something fails (or you want to use tank drive)
