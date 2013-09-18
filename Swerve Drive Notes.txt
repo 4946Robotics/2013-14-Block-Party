@@ -44,3 +44,18 @@ Also keep in mind
 
 Use event loops to handle rotating wheels to correct angle(s) and to correct speed(s)
 Have an emergency tank drive button in case something fails (or you want to use tank drive)
+
+Links
+=====
+
+Chief Delphi
+http://www.chiefdelphi.com/media/papers/2426
+http://www.chiefdelphi.com/forums/showpost.php?p=1282105&postcount=2
+
+Team 1640 wiki
+http://wiki.team1640.com/images/6/60/Programming_a_Pivot_Drive_Robot.pdf
+http://wiki.team1640.com/images/4/44/Pivot_-_Crab_with_a_Twist_edit2.pdf
+http://wiki.team1640.com/images/8/85/Pivot-Wheel_Drive.pdf
+
+Car Differential
+http://www.howstuffworks.com/differential.htm
