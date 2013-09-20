@@ -1,0 +1,14 @@
+IP Adress 169.254.119.198
+Default gateway 169.254.1.1
+(Note: the above addresses may change with the new computer)
+
+
+Troubleshooting problems and solutions:
+
+P: I can't connect to the Sammy!
+S: If the Sammy is frozen and won't turn off, remove the battery and put it back in.
+S: Are you running the program? (Make sure you're running teleop or autonomous)
+S: Turn the NXT off and on
+S: Close out of everthing, disconnect from the Sammy. Turn the robot off and on, then reconnect.
+S: Hold down the red button on the Sammy, and try to reconnect
+
