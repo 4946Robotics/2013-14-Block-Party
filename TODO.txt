@@ -7,3 +7,9 @@ To do
 [IN PROGRESS] Research math behind vector drive
 	[COMPLETED] Translation
 	[IN PROGRESS] Rotation
+
+[IN PROGRESS] Omni drive
+	[COMPLETED] Translation
+	[COMPLETED] Rotation
+	[IN PROGRESS] Program it
+	[NOT STARTED] Test it
