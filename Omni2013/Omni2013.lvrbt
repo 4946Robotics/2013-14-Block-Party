@@ -14,6 +14,7 @@
 	<Item Name="Robo_Programs" Type="Folder">
 		<Item Name="autonomous mode.vi" Type="VI" URL="../Robo_Programs/autonomous mode.vi"/>
 		<Item Name="omni1.vi" Type="VI" URL="../Robo_Programs/omni1.vi"/>
+		<Item Name="tethered test.vi" Type="VI" URL="../Robo_Programs/tethered test.vi"/>
 	</Item>
 	<Item Name="Robo_Schema" Type="Folder">
 		<Item Name="robo_schema.bin" Type="Document" URL="../robo_schema.bin"/>
