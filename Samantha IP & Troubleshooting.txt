@@ -1,0 +1,34 @@
+IP Adress 169.254.119.198
+Subnet Mask 255.255.255.255
+Default gateway 169.254.1.1
+(Note: the above addresses may change with the new computer)
+
+
+Procedure for connecting the Sammy:
+  With the FTC_Pit network set up, and everything off:
+  1: Connect to the FTC_Pit network (See Problem 2)
+  2: Turn on the NXT and flip the on/off switch to "ON" (duh)
+  3: Start up the program "samofcs.exe"
+  4: Press "OK" in the upper right hand coner of the samofcs window
+  5: Hit "Choose" in 'current teams'
+  6: Click on the 4946 thingy
+  7: Press connect in 'current teams'
+  8: Hope
+
+
+Troubleshooting problems:
+
+Problem 1: If you can't connect to the Sammy
+  1. If the Sammy is frozen and won't turn off, remove the battery and put it back in.
+  2. Are you running the program? (Make sure you're running teleop or autonomous)
+  3. Turn the NXT off and on
+  4. Close out of everthing, disconnect from the Sammy. Turn the robot off and on, then reconnect.
+  5. Hold down the red button on the Sammy, and try to reconnect
+
+Problem 2: If the wifi light is blinking slowly
+  1. Go to the FTC_Pit wifi
+  2. Go to status
+  3. Go to properties (NOT "Wireless Properties")
+  4. Go to the IPV4 (NOT IPV6)
+  5. Type in the IP adress, subnet mask, and default gateway values listed above
+  6. Pray
