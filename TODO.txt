@@ -1,0 +1,15 @@
+To do
+=====
+
+[COMPLETED] Email all programmers
+[COMPLETED] Add all programmers to organization
+
+[IN PROGRESS] Research math behind Vector drive
+	[IN PROGRESS] Translation
+	[IN PROGRESS] Rotation
+
+[IN PROGRESS] Omni drive
+	[COMPLETED] Translation
+	[COMPLETED] Rotation
+	[IN PROGRESS, AWAITING TEST CHASSIS] Program it
+	[AWAITING TEST CHASSIS] Test it
