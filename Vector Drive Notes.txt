@@ -16,6 +16,8 @@ Motor speed range is [-100, 100]
 Translation
 ===========
 
+English summary: make all the wheel aligned the same way, and all rotate at the same speed (think crab drive)
+
 x = x input from left thumbstick [-128, 128]
 y = y input from left thumbstick [-128, 128]
 rot = rotation of all wheels, in radians
