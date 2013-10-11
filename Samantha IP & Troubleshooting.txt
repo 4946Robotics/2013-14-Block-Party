@@ -6,13 +6,13 @@ Default gateway 169.254.1.1
 
 Procedure for connecting the Sammy:
   With the FTC_Pit network set up, and everything off:
-  1: Connect to the FTC_Pit network (See Problem 2)
-  2: Turn on the NXT and flip the on/off switch to "ON" (duh)
-  3: Start up the program "samofcs.exe"
-  4: Press "OK" in the upper right hand coner of the samofcs window
-  5: Hit "Choose" in 'current teams'
-  6: Click on the 4946 thingy
-  7: Press connect in 'current teams'
+  1: Connect to the FTC_Pit network (See Problem 2 if the wifi light is blinking slowly)
+  2: Turn on the NXT and flip the on/off switch to "ON"
+  3: Start up the program "samofcs.exe" (field control system)
+  4: Click "OK" in the upper right hand corner of the samofcs window
+  5: Click "Choose" in 'current teams'
+  6: Click on 4946
+  7: Click connect under 'current teams'
   8: Hope
 
 
