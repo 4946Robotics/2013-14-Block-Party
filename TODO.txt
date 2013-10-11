@@ -11,5 +11,5 @@ To do
 [IN PROGRESS] Omni drive
 	[COMPLETED] Translation
 	[COMPLETED] Rotation
-	[IN PROGRESS, AWAITING TEST CHASSIS] Program it
-	[AWAITING TEST CHASSIS] Test it
+	[COMPLETED] Program it
+	[IN PROGRESSS] Make the code somewhat understandable
