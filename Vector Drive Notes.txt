@@ -16,7 +16,7 @@ Motor speed range is [-100, 100]
 Translation
 ===========
 
-English summary: make all the wheel aligned the same way, and all rotate at the same speed (think crab drive)
+English summary: make all the wheels aligned the same way, and all rotate at the same speed (think crab drive)
 
 x = x input from left thumbstick [-128, 128]
 y = y input from left thumbstick [-128, 128]
@@ -36,6 +36,10 @@ mag = maxPowerToMotor * sqrt( x^2 + y^2 ) / 128
 
 Rotation
 ========
+
+English summary: to achieve rotation while translating, 
+get the motor rotation and speed for translation withot rotation, and rotation without translation. 
+Then, average the rotation and speed of both for each motor.
 
 Right thumbstick left = -90 degrees, right thumbstick right = 90 degrees:
 	rot = pi/2 * input/128
