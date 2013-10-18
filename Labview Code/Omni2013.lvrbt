@@ -15,6 +15,8 @@
 		<Item Name="autonomous mode.vi" Type="VI" URL="../Robo_Programs/autonomous mode.vi"/>
 		<Item Name="omni with motors.vi" Type="VI" URL="../Robo_Programs/omni with motors.vi"/>
 		<Item Name="omni1.vi" Type="VI" URL="../Robo_Programs/omni1.vi"/>
+		<Item Name="tankdrive.vi" Type="VI" URL="../Robo_Programs/tankdrive.vi"/>
+		<Item Name="tankdrive1.vi" Type="VI" URL="../Robo_Programs/tankdrive1.vi"/>
 		<Item Name="tethered test.vi" Type="VI" URL="../Robo_Programs/tethered test.vi"/>
 	</Item>
 	<Item Name="Robo_Schema" Type="Folder">
