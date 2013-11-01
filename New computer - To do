@@ -5,5 +5,4 @@ Things that we need to do with the new computer:
 3.  Install the Github application (http://windows.github.com)
 4.  Install the LVLM FTC Toolkit (https://decibel.ni.com/content/docs/DOC-17997)
 5.  Make sure that we have any neccessary software for a bluetooth dongle
-6.  Make sure that we have the rights to change the network for the field control system
-        Note: check if we can do this already
+6.  Rights to create and modify an ad hoc network (required for the Field Control System)
