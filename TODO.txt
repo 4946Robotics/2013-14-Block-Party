@@ -12,4 +12,6 @@ To do
 	[COMPLETED] Translation
 	[COMPLETED] Rotation
 	[COMPLETED] Program it
-	[IN PROGRESSS] Make the code somewhat understandable
+	[IN PROGRESS] Make the code somewhat understandable
+
+[NOT STARTED] Add method for creating the ad hoc network to notes
