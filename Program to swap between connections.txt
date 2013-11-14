@@ -1,0 +1,4 @@
+The idea is a program that you can double click on to auomatically change the ip and network config to either the ftc_pit setup, or the normal internet connection.
+
+There is an api for C# that should make this possible here:
+http://managedwifi.codeplex.com/
