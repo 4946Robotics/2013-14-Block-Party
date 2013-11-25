@@ -4,6 +4,10 @@ To do
 [COMPLETED] Email all programmers
 [COMPLETED] Add all programmers to organization
 
+[IN PROGRESS] Fix/Decrease lag
+	[COMPLETED] Test lag in program
+	[IN PROGRESS] Obtain router
+
 [IN PROGRESS] Research math behind Vector drive
 	[IN PROGRESS] Translation
 	[IN PROGRESS] Rotation
@@ -12,6 +16,6 @@ To do
 	[COMPLETED] Translation
 	[COMPLETED] Rotation
 	[COMPLETED] Program it
-	[IN PROGRESS] Make the code somewhat understandable
+	[COMPLETED] Make the code somewhat understandable
 
 [NOT STARTED] Add method for creating the ad hoc network to notes
