@@ -1,0 +1,3 @@
+On Labview, in the robot project center, open the 'default configuration.rcc' file under Remote Control.
+
+Once you get to that window, on the left sidebar, click "Run Program", then change the setting from Prototype to FTC Game, select your Teleop VI on that selector menu, and start the test and enable the bot.
