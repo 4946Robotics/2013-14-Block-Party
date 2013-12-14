@@ -1,0 +1,6 @@
+1. post problem to chief delphi
+2. replace nxt
+3. replace motor controllers
+4. change code to reject invalid values
+5. check joysticks for invalid values
+6. call karl
