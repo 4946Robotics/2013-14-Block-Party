@@ -19,7 +19,6 @@
 		<Item Name="omnilagtest.vi" Type="VI" URL="../Robo_Programs/omnilagtest.vi"/>
 		<Item Name="tankdrive.vi" Type="VI" URL="../Robo_Programs/tankdrive.vi"/>
 		<Item Name="tankdrive1.vi" Type="VI" URL="../Robo_Programs/tankdrive1.vi"/>
-		<Item Name="tethered test.vi" Type="VI" URL="../Robo_Programs/tethered test.vi"/>
 	</Item>
 	<Item Name="Robo_Schema" Type="Folder">
 		<Item Name="robo_schema.bin" Type="Document" URL="../robo_schema.bin"/>
