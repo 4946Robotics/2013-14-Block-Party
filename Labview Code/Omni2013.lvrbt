@@ -17,6 +17,7 @@
 		<Item Name="omni with motors.vi" Type="VI" URL="../Robo_Programs/omni with motors.vi"/>
 		<Item Name="omni1.vi" Type="VI" URL="../Robo_Programs/omni1.vi"/>
 		<Item Name="omnilagtest.vi" Type="VI" URL="../Robo_Programs/omnilagtest.vi"/>
+		<Item Name="tankdrive printout.vi" Type="VI" URL="../Robo_Programs/tankdrive printout.vi"/>
 		<Item Name="tankdrive.vi" Type="VI" URL="../Robo_Programs/tankdrive.vi"/>
 		<Item Name="tankdrive1.vi" Type="VI" URL="../Robo_Programs/tankdrive1.vi"/>
 	</Item>

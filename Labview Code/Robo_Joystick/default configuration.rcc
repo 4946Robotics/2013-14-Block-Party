@@ -1,11 +1,11 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>10.0.1</Version>
+<Version>12.0.1f2</Version>
 <Cluster>
 <Name>Relitivated Settings</Name>
 <NumElts>3</NumElts>
 <Cluster>
-<Name>Drive</Name>
+<Name>Drive2</Name>
 <NumElts>8</NumElts>
 <EL>
 <Name>Drive Style</Name>
@@ -19,14 +19,14 @@
 <Name>BadController</Name>
 <Val>0</Val>
 </U8>
-<I32>
+<String>
 <Name>Left Motor</Name>
-<Val>1110</Val>
-</I32>
-<I32>
+<Val>!Motor A</Val>
+</String>
+<String>
 <Name>Right Motor</Name>
-<Val>1120</Val>
-</I32>
+<Val>!Motor B</Val>
+</String>
 <EB>
 <Name>Motor Type</Name>
 <Choice>NXT Motor</Choice>
@@ -64,10 +64,10 @@
 <Cluster>
 <Name></Name>
 <NumElts>5</NumElts>
-<I32>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <I32>
 <Name>Power Level</Name>
 <Val>75</Val>
@@ -90,10 +90,10 @@
 <Cluster>
 <Name></Name>
 <NumElts>5</NumElts>
-<I32>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <I32>
 <Name>Power Level</Name>
 <Val>75</Val>
@@ -116,10 +116,10 @@
 <Cluster>
 <Name></Name>
 <NumElts>5</NumElts>
-<I32>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <I32>
 <Name>Power Level</Name>
 <Val>75</Val>
@@ -142,10 +142,10 @@
 <Cluster>
 <Name></Name>
 <NumElts>5</NumElts>
-<I32>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <I32>
 <Name>Power Level</Name>
 <Val>75</Val>
@@ -172,21 +172,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -225,21 +218,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -278,21 +264,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -331,21 +310,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -384,21 +356,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>4</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -437,21 +402,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>4</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -490,21 +448,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>4</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -543,21 +494,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>4</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -596,21 +540,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -649,21 +586,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -702,21 +632,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -755,21 +678,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -808,21 +724,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -861,21 +770,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -914,21 +816,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -967,21 +862,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1020,21 +908,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1073,21 +954,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1126,21 +1000,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1179,21 +1046,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1240,10 +1100,10 @@
 <Cluster>
 <Name></Name>
 <NumElts>5</NumElts>
-<I32>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <I32>
 <Name>Power Level</Name>
 <Val>75</Val>
@@ -1266,10 +1126,10 @@
 <Cluster>
 <Name></Name>
 <NumElts>5</NumElts>
-<I32>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <I32>
 <Name>Power Level</Name>
 <Val>75</Val>
@@ -1292,10 +1152,10 @@
 <Cluster>
 <Name></Name>
 <NumElts>5</NumElts>
-<I32>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <I32>
 <Name>Power Level</Name>
 <Val>75</Val>
@@ -1318,10 +1178,10 @@
 <Cluster>
 <Name></Name>
 <NumElts>5</NumElts>
-<I32>
+<String>
 <Name>Motor</Name>
-<Val>-1</Val>
-</I32>
+<Val>&lt;None&gt;</Val>
+</String>
 <I32>
 <Name>Power Level</Name>
 <Val>75</Val>
@@ -1348,21 +1208,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1401,21 +1254,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1454,21 +1300,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1507,21 +1346,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1560,21 +1392,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1613,21 +1438,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1666,21 +1484,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1719,21 +1530,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1772,21 +1576,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1825,21 +1622,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1878,21 +1668,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1931,21 +1714,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -1984,21 +1760,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -2037,21 +1806,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -2090,21 +1852,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -2143,21 +1898,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -2196,21 +1944,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -2249,21 +1990,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -2302,21 +2036,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -2355,21 +2082,14 @@
 <Cluster>
 <Name>Button Action</Name>
 <NumElts>10</NumElts>
-<EL>
+<U16>
 <Name>Mode</Name>
-<Choice>None</Choice>
-<Choice>Move while Pressed</Choice>
-<Choice>Move for Time</Choice>
-<Choice>Move for Distance</Choice>
-<Choice>Move to Position</Choice>
-<Choice>Advanced SubVI</Choice>
-<Choice>Change Drive Power</Choice>
 <Val>0</Val>
-</EL>
-<I32>
+</U16>
+<String>
 <Name>Motor</Name>
-<Val>0</Val>
-</I32>
+<Val>!</Val>
+</String>
 <Path>
 <Name>Advanced: Pressed</Name>
 <Val></Val>
@@ -2414,163 +2134,87 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>All Actuators</Name>
-<Dimsize>5</Dimsize>
-<Cluster>
-<Name></Name>
-<NumElts>2</NumElts>
+<Dimsize>6</Dimsize>
 <String>
-<Name>Node Name</Name>
-<Val>None</Val>
-</String>
-<I32>
-<Name>Address</Name>
-<Val>-1</Val>
-</I32>
-</Cluster>
-<Cluster>
 <Name></Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Node Name</Name>
-<Val>Motor B</Val>
+<Val>!Motor A</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>1120</Val>
-</I32>
-</Cluster>
-<Cluster>
+<String>
 <Name></Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Node Name</Name>
-<Val>Motor C</Val>
+<Val>!Motor B</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>1210</Val>
-</I32>
-</Cluster>
-<Cluster>
+<String>
 <Name></Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Node Name</Name>
-<Val>Motor D</Val>
+<Val>!Motor C</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>1220</Val>
-</I32>
-</Cluster>
-<Cluster>
+<String>
 <Name></Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Node Name</Name>
-<Val>Motor A</Val>
+<Val>!Motor D</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>1110</Val>
-</I32>
-</Cluster>
+<String>
+<Name></Name>
+<Val>!Grabber</Val>
+</String>
+<String>
+<Name></Name>
+<Val>!Tetrix 180 deg Servo 1</Val>
+</String>
 </Array>
 <Array>
 <Name>Position Control</Name>
 <Dimsize>1</Dimsize>
-<Cluster>
-<Name></Name>
-<NumElts>2</NumElts>
 <String>
-<Name>Node Name</Name>
-<Val>None</Val>
+<Name></Name>
+<Val>!Tetrix 180 deg Servo 1</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>-1</Val>
-</I32>
-</Cluster>
 </Array>
 <Array>
 <Name>Speed Control</Name>
 <Dimsize>5</Dimsize>
-<Cluster>
-<Name></Name>
-<NumElts>2</NumElts>
 <String>
-<Name>Node Name</Name>
-<Val>None</Val>
-</String>
-<I32>
-<Name>Address</Name>
-<Val>-1</Val>
-</I32>
-</Cluster>
-<Cluster>
 <Name></Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Node Name</Name>
-<Val>Motor B</Val>
+<Val>!Motor A</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>1120</Val>
-</I32>
-</Cluster>
-<Cluster>
+<String>
 <Name></Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Node Name</Name>
-<Val>Motor C</Val>
+<Val>!Motor B</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>1210</Val>
-</I32>
-</Cluster>
-<Cluster>
+<String>
 <Name></Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Node Name</Name>
-<Val>Motor D</Val>
+<Val>!Motor C</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>1220</Val>
-</I32>
-</Cluster>
-<Cluster>
+<String>
 <Name></Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Node Name</Name>
-<Val>Motor A</Val>
+<Val>!Motor D</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>1110</Val>
-</I32>
-</Cluster>
+<String>
+<Name></Name>
+<Val>!Grabber</Val>
+</String>
 </Array>
 <Array>
 <Name>Distance Control</Name>
-<Dimsize>1</Dimsize>
-<Cluster>
-<Name></Name>
-<NumElts>2</NumElts>
+<Dimsize>5</Dimsize>
 <String>
-<Name>Node Name</Name>
-<Val>None</Val>
+<Name></Name>
+<Val>!Motor A</Val>
 </String>
-<I32>
-<Name>Address</Name>
-<Val>-1</Val>
-</I32>
-</Cluster>
+<String>
+<Name></Name>
+<Val>!Motor B</Val>
+</String>
+<String>
+<Name></Name>
+<Val>!Motor C</Val>
+</String>
+<String>
+<Name></Name>
+<Val>!Motor D</Val>
+</String>
+<String>
+<Name></Name>
+<Val>!Grabber</Val>
+</String>
 </Array>
 </Cluster>
 </Cluster>
