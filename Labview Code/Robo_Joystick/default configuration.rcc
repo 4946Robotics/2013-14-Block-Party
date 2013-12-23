@@ -2134,7 +2134,7 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>All Actuators</Name>
-<Dimsize>6</Dimsize>
+<Dimsize>5</Dimsize>
 <String>
 <Name></Name>
 <Val>!Motor A</Val>
@@ -2153,19 +2153,15 @@
 </String>
 <String>
 <Name></Name>
-<Val>!Grabber</Val>
-</String>
-<String>
-<Name></Name>
-<Val>!Tetrix 180 deg Servo 1</Val>
+<Val>!Lifter</Val>
 </String>
 </Array>
 <Array>
 <Name>Position Control</Name>
-<Dimsize>1</Dimsize>
+<Dimsize>0</Dimsize>
 <String>
 <Name></Name>
-<Val>!Tetrix 180 deg Servo 1</Val>
+<Val></Val>
 </String>
 </Array>
 <Array>
@@ -2189,7 +2185,7 @@
 </String>
 <String>
 <Name></Name>
-<Val>!Grabber</Val>
+<Val>!Lifter</Val>
 </String>
 </Array>
 <Array>
@@ -2213,7 +2209,7 @@
 </String>
 <String>
 <Name></Name>
-<Val>!Grabber</Val>
+<Val>!Lifter</Val>
 </String>
 </Array>
 </Cluster>
