@@ -1,0 +1,16 @@
+How to set up the bluetooth dongle
+==================================
+
+
+How to connect to the NXT using the dongle
+==========================================
+
+
+How to run a program on the NXT from the computer
+=================================================
+
+In Labview, in the robot project center, open the 'default configuration.rcc' file under Remote Control
+Once you get to that window, on the left sidebar, click "Run Program"
+Change the setting from Prototype to FTC Game
+Select your Teleop VI on that selector menu
+Start the test and enable the bot
