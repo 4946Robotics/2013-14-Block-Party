@@ -1,0 +1,9 @@
+How to set up the bluetooth dongle
+==================================
+
+
+
+How to connect to the nxt using bluetooth
+=========================================
+
+
