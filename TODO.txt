@@ -6,16 +6,16 @@ To do
 
 [IN PROGRESS] Fix/Decrease lag
 	[COMPLETED] Test lag in program
-	[IN PROGRESS] Obtain router
+	[COMPLETED] Obtain router
 
-[IN PROGRESS] Research math behind Vector drive
-	[IN PROGRESS] Translation
-	[IN PROGRESS] Rotation
+[ABORTED] Research math behind Vector drive
+	[ABORTED] Translation
+	[ABORTED] Rotation
 
-[IN PROGRESS] Omni drive
+[COMPLETED] Omni drive
 	[COMPLETED] Translation
 	[COMPLETED] Rotation
 	[COMPLETED] Program it
 	[COMPLETED] Make the code somewhat understandable
 
-[NOT STARTED] Add method for creating the ad hoc network to notes
+[COMPLETED] Add method for creating the ad hoc network to notes
