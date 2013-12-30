@@ -1,6 +1,8 @@
-1. post problem to chief delphi
-2. replace nxt
-3. replace motor controllers
-4. change code to reject invalid values
-5. check joysticks for invalid values
-6. call karl
+[ ] post problem to chief delphi
+[ ] replace nxt
+[ ] replace motor controllers
+[X] change code to reject invalid values
+[X] check joysticks for invalid values
+[ ] call karl
+
+(its also possible that the lag was caused by the loose usb connect in the samantha module)
