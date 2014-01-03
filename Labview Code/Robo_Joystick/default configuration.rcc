@@ -2134,7 +2134,7 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>All Actuators</Name>
-<Dimsize>8</Dimsize>
+<Dimsize>5</Dimsize>
 <String>
 <Name></Name>
 <Val>!Motor A</Val>
@@ -2154,35 +2154,19 @@
 <String>
 <Name></Name>
 <Val>!Lifter</Val>
-</String>
-<String>
-<Name></Name>
-<Val>!Block Placer</Val>
-</String>
-<String>
-<Name></Name>
-<Val>!Winch</Val>
-</String>
-<String>
-<Name></Name>
-<Val>!Hook Servo</Val>
 </String>
 </Array>
 <Array>
 <Name>Position Control</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>0</Dimsize>
 <String>
 <Name></Name>
-<Val>!Block Placer</Val>
-</String>
-<String>
-<Name></Name>
-<Val>!Hook Servo</Val>
+<Val></Val>
 </String>
 </Array>
 <Array>
 <Name>Speed Control</Name>
-<Dimsize>6</Dimsize>
+<Dimsize>5</Dimsize>
 <String>
 <Name></Name>
 <Val>!Motor A</Val>
@@ -2202,15 +2186,11 @@
 <String>
 <Name></Name>
 <Val>!Lifter</Val>
-</String>
-<String>
-<Name></Name>
-<Val>!Winch</Val>
 </String>
 </Array>
 <Array>
 <Name>Distance Control</Name>
-<Dimsize>6</Dimsize>
+<Dimsize>5</Dimsize>
 <String>
 <Name></Name>
 <Val>!Motor A</Val>
@@ -2230,10 +2210,6 @@
 <String>
 <Name></Name>
 <Val>!Lifter</Val>
-</String>
-<String>
-<Name></Name>
-<Val>!Winch</Val>
 </String>
 </Array>
 </Cluster>
