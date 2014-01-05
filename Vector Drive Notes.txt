@@ -38,8 +38,8 @@ Rotation
 ========
 
 English summary: to achieve rotation while translating, 
-get the motor rotation and speed for translation withot rotation, and rotation without translation. 
-Then, average the rotation and speed of both for each motor.
+get the motor rotation and speed for translation without rotation, and rotation without translation. 
+Then average the rotation and translation speed for each motor.
 
 Right thumbstick left = -90 degrees, right thumbstick right = 90 degrees:
 	rot = pi/2 * input/128

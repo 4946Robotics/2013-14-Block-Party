@@ -1,0 +1,46 @@
+Possible benefits
+=================
+
+More logical conceptually
+Cleaner code
+Smoother/more precise?
+
+
+Get input from the joysticks
+============================
+
+x = x input from left thumbstick [-128, 128]
+y = y input from left thumbstick [-128, 128]
+rot = rotation of all wheels, in radians
+mag = speed of all wheels
+maxPowerToMotor = max speed of a motor (100)
+
+if x == 0
+	if y > 0
+		rot = pi/2
+	else if y < 0
+		rot = 3pi/2
+else
+  rot = atan(y/x)
+mag = maxPowerToMotor * sqrt( x^2 + y^2 ) / 128
+
+
+Get the motor speed for translation
+===================================
+
+if the motors are set up like this:
+
+B---A
+|   |
+C---D
+
+A = mag * sin(rot - [45 degrees or 1*pi/4])
+B = mag * sin(rot - [135 degrees or 3*pi/4])
+C = mag * sin(rot - [225 degrees or 5*pi/4])
+D = mag * sin(rot - [315 degrees or 7*pi/4])
+
+
+Apply rotation
+=============================================================================
+
+Average the rotation speed and the translation speed like before
