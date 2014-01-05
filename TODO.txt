@@ -1,8 +1,8 @@
 To do
 =====
 
-[COMPLETED] Email all programmers
-[COMPLETED] Add all programmers to organization
+[IN PROGRESS] Email all programmers
+[IN PROGRESS] Add all programmers to organization (Add William)
 
 [IN PROGRESS] Fix/Decrease lag
 	[COMPLETED] Test lag in program
