@@ -2,3 +2,13 @@ read the distance sensor
 adjust the up/down variable to compensate for any distance changes
 
 the distance sensor should be kept at ~ 41
+
+
+Pseudo code:
+
+get initial value
+start loop
+	if current value != initial value && reached wood is false
+		make reached wood true
+	if reached wood
+		adjust distance from wood according to sensor
