@@ -1,0 +1,4 @@
+read the distance sensor
+adjust the up/down variable to compensate for any distance changes
+
+the distance sensor should be kept at ~ 41

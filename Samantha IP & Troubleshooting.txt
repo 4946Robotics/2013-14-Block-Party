@@ -18,17 +18,20 @@ Procedure for connecting the Sammy:
 
 Troubleshooting problems:
 
-Problem 1: If you can't connect to the Sammy
+Problem 1: Can't connect to the Sammy
   1. If the Sammy is frozen and won't turn off, remove the battery and put it back in.
   2. Are you running the program? (Make sure you're running teleop or autonomous)
   3. Turn the NXT off and on
   4. Close out of everthing, disconnect from the Sammy. Turn the robot off and on, then reconnect.
   5. Hold down the red button on the Sammy, and try to reconnect
 
-Problem 2: If the wifi light is blinking slowly
+Problem 2: The wifi light is blinking slowly
   1. Go to the FTC_Pit wifi
   2. Go to status
   3. Go to properties (NOT "Wireless Properties")
   4. Go to the IPV4 (NOT IPV6)
   5. Type in the IP adress, subnet mask, and default gateway values listed above
   6. Pray
+Problem 3:  NXT & power lights are on, but can't connect with computer
+  1. Swap out which computer you're using to connect
+

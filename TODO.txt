@@ -19,3 +19,6 @@ To do
 	[COMPLETED] Make the code somewhat understandable
 
 [COMPLETED] Add method for creating the ad hoc network to notes
+
+[IN PROGRESS] Autonomous
+	[NOT STARTED] Start reading the distance sensor
