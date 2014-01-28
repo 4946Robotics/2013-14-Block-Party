@@ -1,6 +1,5 @@
 To do
 =====
-1. Determine correct method for rotating via changing the wheel speeds
 
 
 General Information
@@ -44,12 +43,6 @@ Then average the rotation and translation speed for each motor.
 Right thumbstick left = -90 degrees, right thumbstick right = 90 degrees:
 	rot = pi/2 * input/128
 
-
-Also keep in mind
-===========
-
-Use event loops to handle rotating wheels to correct angle(s) and to correct speed(s)
-Have an emergency tank drive button in case something fails (or you want to use tank drive)
 
 Links
 =====
