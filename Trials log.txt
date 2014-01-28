@@ -1,20 +1,21 @@
 1-24-14
-======
-fail reasons  - turned before placing block, did not go foreward when needed, did not go far enough (potentially related to the rotation problem)
+=======
+Failure reasons:
+* turned before placing block
+* did not go forward when needed
+* did not go far enough (potentially related to rotation problem)
 
 CHANGED MOTOR SPEED TO 5:
 -Success on peg 1-Left
--Crash into balance beam peg 3-Left
+-Failure on peg 3-Left (Crash into balance beam)
 
 CHANGED DISTANCE TO 47:
--Kept going forever peg 3 -Left
+-Failure on peg 3-Left (Kept going forever)
 
 CHANGED DISTANCE TO 43:
 -Success on peg 3-Left (a bit too far but still went in)
--Went too far on peg 2-Left
+-Failure on peg 2-Left (Went too far)
 -Success on peg 2-Left (hit crate a bit)
--Success on peg 2-Left (hit crate a bit again)
+-Success on peg 2-Left (hit crate a bit)
 -Failure on peg 4-Left (huge overshoot)
 -Failure on peg 4-Left (Fairly close but went too close to the crate so it threw it past)
--
-
