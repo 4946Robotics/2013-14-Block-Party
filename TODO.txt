@@ -1,10 +1,10 @@
 To do
 =====
 
-[IN PROGRESS] Email all programmers
-[IN PROGRESS] Add all programmers to organization (Add William)
+[COMPLETED] Email all programmers
+[COMPLETED] Add all programmers to organization
 
-[IN PROGRESS] Fix/Decrease lag
+[COMPLETED] Fix/Decrease lag
 	[COMPLETED] Test lag in program
 	[COMPLETED] Obtain router
 
@@ -21,4 +21,4 @@ To do
 [COMPLETED] Add method for creating the ad hoc network to notes
 
 [IN PROGRESS] Autonomous
-	[NOT STARTED] Start reading the distance sensor
+	Autonomous notes can be found in the file "Autonomous TODO.txt"
