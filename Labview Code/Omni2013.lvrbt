@@ -16,6 +16,7 @@
 		<Item Name="autonomous mode.vi" Type="VI" URL="../Robo_Programs/autonomous mode.vi"/>
 		<Item Name="omni with motors.vi" Type="VI" URL="../Robo_Programs/omni with motors.vi"/>
 		<Item Name="omni1.vi" Type="VI" URL="../Robo_Programs/omni1.vi"/>
+		<Item Name="omni2 (trig).vi" Type="VI" URL="../Robo_Programs/omni2 (trig).vi"/>
 		<Item Name="omnilagtest.vi" Type="VI" URL="../Robo_Programs/omnilagtest.vi"/>
 		<Item Name="sensor tester.vi" Type="VI" URL="../Robo_Programs/sensor tester.vi"/>
 		<Item Name="tankdrive printout.vi" Type="VI" URL="../Robo_Programs/tankdrive printout.vi"/>
