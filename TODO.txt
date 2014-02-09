@@ -21,6 +21,7 @@ To do
 	[COMPLETED] Program it
 	[COMPLETED] Make the code somewhat understandable
 	[COMPLETED] Implement code that uses trigonometry to calculate wheel speeds
+	[NOT STARTED] Look at values printing on NXT to determine if scaling or trimming is needed
 	[IN PROGRESS] Add other code to TrigDriv branch so it can be used normally
 	[NOT STARTED] Compare drive-ablity of two teleop controls
 	[NOT STARTED] Merge / abandon TrigDrive branch
