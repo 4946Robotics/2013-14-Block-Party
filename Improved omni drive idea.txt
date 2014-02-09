@@ -12,35 +12,37 @@ Get input from the joysticks
 x = x input from left thumbstick [-128, 128]
 y = y input from left thumbstick [-128, 128]
 rot = rotation of all wheels, in radians
-mag = speed of all wheels
-maxPowerToMotor = max speed of a motor (100)
+mag = speed of all wheels (length of the vector)
 
-if x == 0
-	if y > 0
-		rot = pi/2
-	else if y < 0
-		rot = 3pi/2
-else
-  rot = atan(y/x)
-mag = maxPowerToMotor * sqrt( x^2 + y^2 ) / 128
+if(x >= -10 && x <= 10 && y >= -10 && y <= 10)
+	ignore input
+rot = atan2(y,x)
+mag = 100 * sqrt( x^2 + y^2 ) / 128	//100 is |max power to a motor|
 
 
-Get the motor speed for translation
+Motor speed for translation
 ===================================
 
 if the motors are set up like this:
 
-B---A
+A---D
 |   |
-C---D
+B---C
 
-A = mag * sin(rot - [45 degrees or 1*pi/4])
-B = mag * sin(rot - [135 degrees or 3*pi/4])
-C = mag * sin(rot - [225 degrees or 5*pi/4])
-D = mag * sin(rot - [315 degrees or 7*pi/4])
+A =  50 * cos(rot - pi/4)
+B = -50 * sin(rot - pi/4)
+C = -50 * cos(rot - pi/4)
+D =  50 * sin(rot - pi/4)
 
 
 Apply rotation
 =============================================================================
 
-Average the rotation speed and the translation speed like before
+x = x input from the right thumbstick [-128, 128]
+
+rotDelta = -50 * x / 128
+
+A = A + rotDelta
+B = B + rotDelta
+C = C + rotDelta
+D = D + rotDelta
