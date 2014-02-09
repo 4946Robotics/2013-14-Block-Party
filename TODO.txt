@@ -3,6 +3,7 @@ To do
 
 [COMPLETED] Email all programmers
 [COMPLETED] Add all programmers to organization
+[NOT STARTED] Ensure that all of next years programmers can do everything
 
 [COMPLETED] Fix/Decrease lag
 	[COMPLETED] Test lag in program
