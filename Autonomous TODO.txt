@@ -1,2 +1,0 @@
-- start logging success placements
-- Add: Switch directions again if the distance sensor reads a big jump (this avoids going off into forever)
