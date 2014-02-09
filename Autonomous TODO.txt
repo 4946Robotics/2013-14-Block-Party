@@ -1,3 +1,2 @@
 - start logging success placements
-- Add Roberts idea of going back after overshoot
-	Read values of sensors left and right of center
+- Add: Switch directions again if the distance sensor reads a big jump (this avoids going off into forever)
