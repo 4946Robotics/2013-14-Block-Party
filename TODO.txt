@@ -36,15 +36,6 @@ To do
 	[NOT STARTED] Make sure that the robot is running the omni1 teleop code until trig drive is complete
 	[NOT STARTED] Add non-driving functions to TrigDrive and upload to robot
 	[NOT STARTED] Ask about the flag raiser (or are we not going to bother with it during the scrimmage?)
-	[NOT STARTED] Gather stats on other robots (here's a form)
-		Team number:
-		Team name:
-		Drive system:
-		Flag raising:
-		Pull up bar:
-		Block grabbing:
-		Block placing:
-		Autonomous Crate:
-		Autonomous Ramp:
+	[NOT STARTED] Gather stats on other robots (check the form)
 	[NOT STARTED] Make sure robot is using latest autonomous code
 	[NOT STARTED] Merge ZoomInAutonomous and TrigDrive into master branch
