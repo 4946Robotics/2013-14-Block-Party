@@ -22,7 +22,7 @@ To do
 	[COMPLETED] Program it
 	[COMPLETED] Make the code somewhat understandable
 	[COMPLETED] Implement code that uses trigonometry to calculate wheel speeds
-	[NOT STARTED] Look at values printing on NXT to determine if scaling or trimming is needed
+	[NOT STARTED] Look at values printing on NXT to determine if scaling or trimming of TrigDrive is needed
 	[IN PROGRESS] Add other code to TrigDriv branch so it can be used normally
 	[NOT STARTED] Compare drive-ablity of two teleop controls
 	[NOT STARTED] Merge / abandon TrigDrive branch
@@ -32,3 +32,18 @@ To do
 	[NOT STARTED] Add code to make robot drive onto ramp after placing block
 	[NOT STARTED] Reduce delays in block placing code (squeeze out more time for driving onto ramp)
 	
+[NOT STARTED] Scrimmage
+	[NOT STARTED] Make sure that the robot is running the omni1 teleop code until trig drive is complete
+	[NOT STARTED] Add non-driving functions to TrigDrive and upload to robot
+	[NOT STARTED] Ask about the flag raiser (or are we not going to bother with it during the scrimmage?)
+	[NOT STARTED] Gather stats on other robots (here's a form)
+		Team number:
+		Team name:
+		Drive system:
+		Flag raising:
+		Pull up bar:
+		Block grabbing:
+		Block placing:
+		Autonomous Crate:
+		Autonomous Ramp:
+	[NOT STARTED] Make sure robot is using latest autonomous code
