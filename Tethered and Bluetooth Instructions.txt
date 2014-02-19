@@ -1,3 +1,6 @@
+Note:
+If you have spent 5 minutes or more trying to get the bluetooth to work, give up and use a usb cable.
+
 How to set up the bluetooth dongle
 ==================================
 
