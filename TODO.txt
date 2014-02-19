@@ -8,6 +8,7 @@ To do
 		[NOT STARTED] Have them set up the field control system (hardware and software)
 		[NOT STARTED] After the competition, make sure they can write a basic working teleop
 	[NOT STARTED] Show programmers TODO.txt, make sure they know to update it after every session next year
+	[NOT STARTED] Ask Robert to finish the Bluetooth Instructions.txt
 
 [COMPLETED] Fix/Decrease lag
 	[COMPLETED] Test lag in program
