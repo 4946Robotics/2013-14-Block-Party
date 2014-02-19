@@ -42,7 +42,6 @@ To do
 	[COMPLETED] Make sure that the robot is running the omni1 teleop code until trig drive is complete
 	[COMPLETED] Add non-driving functions to TrigDrive and upload to robot
 	[COMPLETED] Ask about the flag raiser (motor has been mounted)
-	[NOT STARTED] Merge ZoomInAutonomous and TrigDrive into master branch
 
 [NOT STARTED] Competition
 	[NOT STARTED] Make sure robot is using latest teleop code
