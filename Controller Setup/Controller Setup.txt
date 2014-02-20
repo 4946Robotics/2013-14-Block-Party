@@ -1,0 +1,27 @@
+Controller 1 (driving)
+============
+A - none
+B - none
+X - none
+Y - none
+Left Thumbstick - translate the robot (left/right/forward/backward)
+Right Thumbstick - rotate the robot (clockwise/counterclockwise)
+Dpad - none
+Left bumper - none
+Right Bumper - none
+Left Trigger - none
+Right Trigger - none
+
+Controller 2 (other functions)
+============
+A - Flag raiser
+B - Block placer
+X - none
+Y - none
+Left Thumbstick - none
+Right Thumbstick - none
+Dpad - up and down move the lifter up and down
+Left bumper - none
+Right Bumper - none
+Left Trigger - none
+Right Trigger - none
