@@ -1,3 +1,10 @@
+Current Progress
+================
+
+problem - motor speeds are always maxed out
+problem - the motor directions may be wrong
+problem - not taking any input for rotation
+
 Possible benefits
 =================
 
@@ -29,10 +36,17 @@ A---D
 |   |
 B---C
 
+<<<<<<< HEAD
 A =  50 * cos(rot - pi/4)
 B = -50 * sin(rot - pi/4)
 C = -50 * cos(rot - pi/4)
 D =  50 * sin(rot - pi/4)
+=======
+D = mag * sin(rot - [45 degrees or 1*pi/4])
+A = mag * sin(rot - [135 degrees or 3*pi/4])
+B = mag * sin(rot - [225 degrees or 5*pi/4])
+C = mag * sin(rot - [315 degrees or 7*pi/4])
+>>>>>>> origin/TrigDrive
 
 
 Apply rotation
