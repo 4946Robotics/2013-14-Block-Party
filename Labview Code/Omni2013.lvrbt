@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="Robo_Programs" Type="Folder">
 		<Item Name="autonomous mode.vi" Type="VI" URL="../Robo_Programs/autonomous mode.vi"/>
+		<Item Name="light sensor test.vi" Type="VI" URL="../Robo_Programs/light sensor test.vi"/>
 		<Item Name="line follow autonomous.vi" Type="VI" URL="../Robo_Programs/line follow autonomous.vi"/>
 		<Item Name="omni with motors.vi" Type="VI" URL="../Robo_Programs/omni with motors.vi"/>
 		<Item Name="omni1.vi" Type="VI" URL="../Robo_Programs/omni1.vi"/>
