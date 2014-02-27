@@ -37,6 +37,7 @@ To do
 	[IN PROGRESS] Branch off and add code to make robot drive onto ramp after placing block
 	[NOT STARTED] Merge the zoom in autonomous into the main branch
 	[NOT STARTED] Reduce delays in block placing code (squeeze out more time for driving onto ramp)
+	[IN PROGRESS] Add Robert's latest autonomous code to the master branch
 
 [COMPLETED] Scrimmage
 	[COMPLETED] Make sure that the robot is running the omni1 teleop code until trig drive is complete
