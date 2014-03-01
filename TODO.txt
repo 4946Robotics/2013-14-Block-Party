@@ -5,10 +5,10 @@ To do
 	[COMPLETED] Email all programmers
 	[COMPLETED] Add all programmers to organization
 	[IN PROGRESS] Ensure that all of next years programmers can do everything
-		[NOT STARTED] Have them set up the field control system (hardware and software)
+		[COMPLETED] Have them set up the field control system (hardware and software)
 		[NOT STARTED] After the competition, make sure they can write a basic working teleop
 	[COMPLETED] Show programmers TODO.txt, make sure they know to update it after every session next year
-	[IN PROGRESS] Force Robert to finish the Bluetooth Instructions.txt
+	[COMPLETED] Force Robert to finish the Bluetooth Instructions.txt
 
 [COMPLETED] Fix/Decrease lag
 	[COMPLETED] Test lag in program
@@ -44,6 +44,6 @@ To do
 	[COMPLETED] Ask about the flag raiser (motor has been mounted)
 
 [NOT STARTED] Competition
-	[NOT STARTED] Make sure robot is using latest teleop code
+	[COMPLETED] Make sure robot is using latest teleop code
 	[NOT STARTED] Make sure robot is using latest autonomous code
 	[NOT STARTED] Gather stats on other robots (check the form)

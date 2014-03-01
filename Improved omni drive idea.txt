@@ -1,9 +1,7 @@
 Current Progress
 ================
 
-problem - motor speeds are always maxed out
-problem - the motor directions may be wrong
-problem - not taking any input for rotation
+complete!
 
 Possible benefits
 =================
