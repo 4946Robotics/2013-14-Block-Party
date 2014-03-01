@@ -24,7 +24,6 @@
 		<Item Name="sensor tester.vi" Type="VI" URL="../Robo_Programs/sensor tester.vi"/>
 		<Item Name="tankdrive printout.vi" Type="VI" URL="../Robo_Programs/tankdrive printout.vi"/>
 		<Item Name="tankdrive.vi" Type="VI" URL="../Robo_Programs/tankdrive.vi"/>
-		<Item Name="tankdrive1.vi" Type="VI" URL="../Robo_Programs/tankdrive1.vi"/>
 	</Item>
 	<Item Name="Robo_Schema" Type="Folder">
 		<Item Name="robo_schema.bin" Type="Document" URL="../robo_schema.bin"/>
