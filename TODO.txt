@@ -9,6 +9,7 @@ To do
 		[NOT STARTED] After the competition, make sure they can write a basic working teleop
 	[COMPLETED] Show programmers TODO.txt, make sure they know to update it after every session next year
 	[COMPLETED] Force Robert to finish the Bluetooth Instructions.txt
+	[NOT STARTED] Talk to rest of team about having a place for all pictures and videos of robot
 
 [COMPLETED] Fix/Decrease lag
 	[COMPLETED] Test lag in program
