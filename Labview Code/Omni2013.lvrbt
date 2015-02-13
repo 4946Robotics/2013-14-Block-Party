@@ -13,8 +13,12 @@
 		<Item Name="Ranger Build Instructions.pdf" Type="Document" URL="../Robo_Others/Ranger Build Instructions.pdf"/>
 	</Item>
 	<Item Name="Robo_Programs" Type="Folder">
+		<Item Name="auto left.vi" Type="VI" URL="../Robo_Programs/auto left.vi"/>
+		<Item Name="auto right.vi" Type="VI" URL="../Robo_Programs/auto right.vi"/>
 		<Item Name="autonomous mode.vi" Type="VI" URL="../Robo_Programs/autonomous mode.vi"/>
 		<Item Name="line follow autonomous.vi" Type="VI" URL="../Robo_Programs/line follow autonomous.vi"/>
+		<Item Name="no ramp left.vi" Type="VI" URL="../Robo_Programs/no ramp left.vi"/>
+		<Item Name="no ramp right.vi" Type="VI" URL="../Robo_Programs/no ramp right.vi"/>
 		<Item Name="omni with motors.vi" Type="VI" URL="../Robo_Programs/omni with motors.vi"/>
 		<Item Name="omni1.vi" Type="VI" URL="../Robo_Programs/omni1.vi"/>
 		<Item Name="omni2 (trig).vi" Type="VI" URL="../Robo_Programs/omni2 (trig).vi"/>
